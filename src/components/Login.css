@@ -3,6 +3,7 @@
 	justify-content: center;
 	text-align: center;
 	font-size: 2rem;
+	width: 20vw;
 	margin: 15%;
 	padding: 3rem;
 	color: var(--color-dark);
