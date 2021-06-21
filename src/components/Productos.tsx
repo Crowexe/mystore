@@ -74,7 +74,7 @@ const Productos = () => {
     if(loading){
 
         return (
-			<div id="carga">
+			<div>
             	<Loading />
 			</div>
         )

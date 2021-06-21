@@ -17,23 +17,3 @@ body {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
-
-
-
-#spinner {
-	border: 0.4rem solid var(--color-2);
-	width: 3rem;
-	height: 3rem;
-	border-radius: 50%;
-	border-left-color: var(--color-light);
-	animation: spin 1s linear infinite;
-}	
-
-@keyframes spin{
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}

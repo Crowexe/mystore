@@ -14,14 +14,15 @@ import "./App.css";
 const App = () => {
   const { user } = useUser();
   
+  
   return (
 	<div id="routers">
 		<Router>
 			{user ? 
 			<>	
 				<nav className="top-bar">
-					<Link to="/">Home</Link>
-					<Link to="/producto">Productos</Link>
+					<Link to="/"><i className="fas fa-home"/></Link>
+					<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
 					<Link to="/logout"><Logout /></Link>
 				</nav>
 					<Switch>					

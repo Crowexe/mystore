@@ -5,7 +5,9 @@ const Login = () => {
 	
 	return (
 		<>
-			<button className="bLogout" onClick={logout}>Logout</button>
+			<button className="bLogout" onClick={logout}>
+				<i className="fas fa-power-off"/>
+			</button>
 		</>
 	)
 }
