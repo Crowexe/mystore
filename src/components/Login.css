@@ -1,6 +1,8 @@
 #loginCont {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	gap: 2rem;
 	top: 0;
 	margin: 0;
@@ -12,7 +14,7 @@
 	overflow: auto;
 }
 
-#loginBox {
+#loginCont .loginCont {
 	display: flex;
 	justify-content: center;
 	align-items: center;
