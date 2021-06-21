@@ -84,23 +84,15 @@ const Productos = () => {
 		<>
 			<h1 id="title">Productos</h1>
 			<section>
-				<section id="index-table">
-					<div>Producto</div>
-					<div>ID</div>
-					<div>Precio de venta</div>
-					<div>Precio de compra</div>
-					<div>Stock</div>
-					<div>Tipo</div>
-					<div>Unidad</div> 
-				</section>
+			
 				<form id="campos" onSubmit={addProducto}>
-					<input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} />
-					<input type="text" value={identificador} onChange={(e) => setIdenficador(e.target.value)} />
-					<input type="text" value={precioV} onChange={(e) => setPrecioV(e.target.value)} />
-					<input type="text" value={precioC} onChange={(e) => setPrecioC(e.target.value)} />
-					<input type="text" value={existencia} onChange={(e) => setExitencia(e.target.value)} />
-					<input type="text" value={tipo} onChange={(e) => setTipo(e.target.value)} />
-					<input type="text" value={unidad} onChange={(e) => setUnidad(e.target.value)} />
+					<input className="formIzq" type="text" value={nombre} placeholder="Producto" onChange={(e) => setNombre(e.target.value)} />
+					<input type="text" value={identificador} placeholder="ID" onChange={(e) => setIdenficador(e.target.value)} />
+					<input type="text" value={precioV} placeholder="Precio de venta" onChange={(e) => setPrecioV(e.target.value)} />
+					<input type="text" value={precioC} placeholder="Precio de compra" onChange={(e) => setPrecioC(e.target.value)} />
+					<input type="text" value={existencia} placeholder="Stock" onChange={(e) => setExitencia(e.target.value)} />
+					<input type="text" value={tipo} placeholder="Tipo" onChange={(e) => setTipo(e.target.value)} />
+					<input type="text" value={unidad} placeholder="Unidad" onChange={(e) => setUnidad(e.target.value)} />
 					<button className="bAdd">Agregar</button>
 				</form>
 				<section>
@@ -114,6 +106,10 @@ const Productos = () => {
 								<div>#{existencia}</div>
 								<div>{tipo}</div>
 								<div>{unidad}</div> 
+								<div className="modifiers">
+									<button>Editar</button>
+									<button>Borrar</button>
+								</div>
 							</section>
 						</div>
 					)) } 

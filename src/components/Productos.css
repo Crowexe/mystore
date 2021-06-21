@@ -1,3 +1,7 @@
+#title {
+	font-size: 3.8rem;
+}
+
 #index-table {
 	display: grid;
 	justify-self: center;	
@@ -14,12 +18,65 @@
 	display: grid;
 	justify-content: center;	
 	align-items: center;
-	grid-template-columns: repeat(7, 1fr);
-	margin: 1rem;
-	padding: 0.1rem;
-	font-size: 1.5rem;
+	grid-template-columns: repeat(8, 1fr);
+	margin-left: 1.2rem;
+	font-size: 1.3rem;
+	margin-bottom: 0.7rem;
 }
 
 #campos {
+	display: grid;
+	justify-self: center;	
+	align-self: center;
+	grid-template-columns: repeat(8, 1fr);	
+	margin: 1rem;
+	padding: 0.1rem;
+	font-size: 1.5rem;
+	border-radius: 0.7rem;
+	background-color: var(--color-light);
+}
+
+#campos input {
+	background-color: var(--color-1);
+	padding: 0.6rem;
+	margin-top: 0.2rem;
+	border: none;
+	width: 12.2rem;
+}
+
+#campos .formIzq {
+	border-top-left-radius: 0.7rem;
+	border-bottom-left-radius: 0.7rem;
+}
+
+#campos button {
+	background-color: var(--color-light);
+    border: none;
+    color: var(--color-1);
+    font-size: 1.2rem;
+	font-weight: bold;
+	padding: 0.2rem;	
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+    border-top-right-radius: 0.7rem;
+	border-bottom-right-radius: 0.7rem;
+    outline: none;  
+}
+
+#campos input::placeholder {
+	text-align: center;
 	color: var(--color-light);
+    font-size: 1.2rem;
+	font-weight: bold;
+}
+
+#campos input:focus {
+	outline: none;
+	text-align: center;
+	color: var(--color-dark);
+    font-size: 1rem;
+}
+
+#campos input:focus::placeholder {
+	color: var(--color-1)
 }

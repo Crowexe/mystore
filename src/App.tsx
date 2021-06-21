@@ -21,7 +21,7 @@ const App = () => {
 			<>	
 				<nav className="top-bar">
 					<Link to="/">Home</Link>
-					<Link to="/producto">Products</Link>
+					<Link to="/producto">Productos</Link>
 					<Link to="/logout"><Logout /></Link>
 				</nav>
 					<Switch>					
