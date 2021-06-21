@@ -12,7 +12,16 @@
 	overflow: auto;
 }
 
+#loginBox {
+	display: flex;
+	align-items: center;
+	background-color: var(--color-dark);
+	width: 3rem;
+	height: 5rem;
+}
+
 #loginCont h1 {
+	align-items: center;
 	text-align: center;
 	font-size: 1.2rem;
 	color: var(--color-2);
@@ -23,7 +32,7 @@
 	justify-content: center;
 	background-color: transparent;
 	color: var(--color-2);
-	font-size: 4rem;
+	font-size: 3rem;
 	border: none;
 	outline: none;  
 	transition: transform 0.3s;
