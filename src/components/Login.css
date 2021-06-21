@@ -28,10 +28,10 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 3rem;
+	gap: 4rem;
 	background-color: var(--color-dark);
-	border-radius: 0.7rem;
-	width: 10rem;
+	border-radius: 0.2rem;
+	width: 13rem;
 	height: 12rem;
 }
 
