@@ -83,8 +83,7 @@ const Productos = () => {
     return (
 		<>
 			<h1 id="title">Productos</h1>
-			<section>
-			
+			<section>			
 				<form id="campos" onSubmit={addProducto}>
 					<input className="formIzq" type="text" value={nombre} placeholder="Producto" onChange={(e) => setNombre(e.target.value)} />
 					<input type="text" value={identificador} placeholder="ID" onChange={(e) => setIdenficador(e.target.value)} />

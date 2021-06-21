@@ -24,6 +24,10 @@
 	margin-bottom: 0.7rem;
 }
 
+#prod-items .modifiers {
+	background-color: var(--color-light);
+}
+
 #campos {
 	display: grid;
 	justify-self: center;	
@@ -86,3 +90,4 @@
 #campos input:focus::placeholder {
 	color: var(--color-1)
 }
+
