@@ -27,11 +27,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
+	gap: 3rem;
 	background-color: var(--color-dark);
 	border-radius: 0.7rem;
 	width: 10rem;
-	height: 15rem;
+	height: 12rem;
 }
 
 #loginCont h1 {
