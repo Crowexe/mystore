@@ -7,7 +7,7 @@
 	margin: 0;
 	padding: 0;
 	width: 30rem;
-	background-color: var(--color-1);
+	background-color: var(--color-light);
 	position: fixed;
 	height: 100%;
 	overflow: auto;
