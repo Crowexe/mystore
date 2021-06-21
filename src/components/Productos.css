@@ -24,7 +24,7 @@
 	margin-bottom: 0.7rem;
 }
 
-#prod-items .modifiers {
+#prod-items .modifiers button {
 	background-color: var(--color-light);
 }
 
