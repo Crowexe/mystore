@@ -22,6 +22,7 @@
 	background-color: var(--color-dark);
 	width: 10rem;
 	height: 15rem;
+	border-radius: 2rem;
 }
 
 #loginCont h1 {
