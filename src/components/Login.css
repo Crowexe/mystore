@@ -1,11 +1,11 @@
 #loginCont {
-	display: flex;
-	flex-direction: row;
+	display: grid;
 	justify-content: center;
 	text-align: center;
 	font-size: 2rem;
 	margin: 15%;
 	padding: 3rem;
+	color: var(--color-dark);
 	background-color: var(--color-light);
 	border-radius: 2rem;
 
@@ -13,7 +13,7 @@
 
 #loginCont button {
 	background-color: transparent;
-	color: var(--color-1);
+	color: var(--color-2);
 	font-size: 4rem;
 	border: none;
 	outline: none;  
