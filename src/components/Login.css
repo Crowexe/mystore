@@ -56,5 +56,6 @@
 
 #loginCont button:hover {
 	filter: brightness(1.1);
+	color: aquamarine;
     transform: scale(1.09);
 }
