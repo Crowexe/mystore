@@ -93,7 +93,7 @@ const Productos = () => {
 					<div>Tipo</div>
 					<div>Unidad</div> 
 				</section>
-				<form className="campos" onSubmit={addProducto}>
+				<form id="campos" onSubmit={addProducto}>
 					<input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} />
 					<input type="text" value={identificador} onChange={(e) => setIdenficador(e.target.value)} />
 					<input type="text" value={precioV} onChange={(e) => setPrecioV(e.target.value)} />
@@ -109,9 +109,9 @@ const Productos = () => {
 							<section id="prod-items"> 
 								<div>{nombre}</div>
 								<div>{identificador}</div>
-								<div>{precioV}</div>
-								<div>{precioC}</div>
-								<div>{existencia}</div>
+								<div>${precioV}</div>
+								<div>${precioC}</div>
+								<div>#{existencia}</div>
 								<div>{tipo}</div>
 								<div>{unidad}</div> 
 							</section>
