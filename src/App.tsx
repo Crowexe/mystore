@@ -20,7 +20,6 @@ const App = () => {
 		<Router>
 			{user ? 
 			<>	
-				<Home />
 				<nav className="top-bar">
 					<Link to="/"><i className="fas fa-home"/></Link>
 					<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
