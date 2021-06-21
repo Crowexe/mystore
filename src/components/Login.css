@@ -34,6 +34,7 @@
 	border-radius: 0.6rem;
 	width: 13rem;
 	height: 12rem;
+	box-shadow: -.1rem .1rem .6rem 0rem rgb(75, 75, 75);
 }
 
 #loginCont h1 {
