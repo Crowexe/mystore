@@ -19,6 +19,7 @@
 	margin: 3rem;
 	font-size: 3rem;
 	color: var(--color-2);
+	text-shadow: 2rem;
 }
 
 #loginCont .loginBox {
