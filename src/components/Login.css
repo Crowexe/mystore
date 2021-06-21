@@ -1,3 +1,10 @@
 #loginCont {
 	margin: 20%;
+	background-color: var(--color-light);
+}
+
+#loginCont button {
+	background-color: transparent;
+	color: var(--color-1);
+	font-size: 3rem;
 }
