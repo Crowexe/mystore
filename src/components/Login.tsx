@@ -6,7 +6,7 @@ const Login = () => {
 	
 	return (
 		<div id="loginCont">
-			<h1 id="login-title">Login</h1>
+			<h1 className="login-title">Login</h1>
 			<button onClick={login}>
 				<i className="fas fa-power-off"/>
 			</button>
