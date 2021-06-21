@@ -1,5 +1,5 @@
 #loginCont {
-	display: grid;
+	display: flex;
 	gap: 3rem;
 	justify-content: center;
 	text-align: center;
@@ -7,10 +7,10 @@
 	width: 20vw;
 	margin: 10%;
 	padding: 3rem;
-	color: var(--color-dark);
+	color: var(--color-2);
 	background-color: var(--color-light);
 	border-radius: 2rem;
-
+	box-shadow: 2rem;
 }
 
 #loginCont button {
