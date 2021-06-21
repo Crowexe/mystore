@@ -1,12 +1,12 @@
 #loginCont {
 	display: grid;
 	gap: 3rem;
-	justify-content: center;
+	justify-self: center;
 	text-align: center;
 	font-size: 1.2rem;
-	width: 30rem;
+	width: 25rem;
 	margin: 10%;
-	margin-left: 40%;
+	margin-left: 35%;
 	padding: 3rem;
 	color: var(--color-2);
 	background-color: var(--color-light);
