@@ -7,8 +7,7 @@ const Login = () => {
 		<>
 			<h1 id="login-title">Login</h1>
 			<button onClick={login}>
-				<i className="fab fa-google"/>
-				<div>Login</div>
+				<i className="fas fa-home"/>
 			</button>
 		</>
 	);
