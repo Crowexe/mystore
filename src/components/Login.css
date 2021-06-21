@@ -1,7 +1,10 @@
 #loginCont {
+	display: flex;
+	justify-content: center;
 	width: 30vw;
 	height: 30vh;
 	margin: 20%;
+	padding: 3rem;
 	background-color: var(--color-light);
 }
 
@@ -10,4 +13,11 @@
 	color: var(--color-1);
 	font-size: 3rem;
 	border: none;
+	outline: none;  
+	transition: transform 0.3s;
+}
+
+#loginCont button:hover {
+	filter: brightness(1.1);
+    transform: scale(1.09);
 }
