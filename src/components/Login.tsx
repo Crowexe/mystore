@@ -6,6 +6,7 @@ const Login = () => {
 	
 	return (
 		<section id="loginCont">
+			<h1 id="title">My Store</h1>
 			<div className="loginBox">
 				<h1 className="login-title">Login</h1>
 				<button onClick={login}>
