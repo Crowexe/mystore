@@ -3,6 +3,7 @@ import { SyntheticEvent, useState } from "react";
 import { useUser } from "../context/user";
 import { firebase, firestore } from "../services/firebase";
 import { useCollectionData } from "react-firebase-hooks/firestore";
+import "./Productos.css";
 
 interface IProdutos {
     id: string,
@@ -83,7 +84,7 @@ const Productos = () => {
 		<>
 			<h1 id="title">Productos</h1>
 			<section>
-				<section id="top-table">
+				<section id="index-table">
 					<div>Producto</div>
 					<div>ID</div>
 					<div>Precio de venta</div>
@@ -92,7 +93,7 @@ const Productos = () => {
 					<div>Tipo</div>
 					<div>Unidad</div> 
 				</section>
-				<form onSubmit={addProducto}>
+				<form className="campos" onSubmit={addProducto}>
 					<input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} />
 					<input type="text" value={identificador} onChange={(e) => setIdenficador(e.target.value)} />
 					<input type="text" value={precioV} onChange={(e) => setPrecioV(e.target.value)} />
@@ -100,7 +101,7 @@ const Productos = () => {
 					<input type="text" value={existencia} onChange={(e) => setExitencia(e.target.value)} />
 					<input type="text" value={tipo} onChange={(e) => setTipo(e.target.value)} />
 					<input type="text" value={unidad} onChange={(e) => setUnidad(e.target.value)} />
-					<button>Agregar</button>
+					<button className="bAdd">Agregar</button>
 				</form>
 				<section>
 					{ productos && productos.map(({ nombre, precioV, precioC, existencia, identificador, unidad, tipo, id }) => (

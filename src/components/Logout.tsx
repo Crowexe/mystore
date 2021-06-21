@@ -5,7 +5,7 @@ const Login = () => {
 	
 	return (
 		<>
-			<button onClick={logout}>Logout</button>
+			<button className="bLogout" onClick={logout}>Logout</button>
 		</>
 	)
 }

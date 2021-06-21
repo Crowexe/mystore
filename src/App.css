@@ -26,8 +26,8 @@
   
   /* Links on mouse-over */
 .top-bar a:hover {
-
-	color: white;
+	filter: brightness(1.1);
+    transform: scale(1.09);
 }
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -48,3 +48,12 @@
 	  float: none;
 	}
   }
+
+.bLogout{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    outline: none;    	
+}
