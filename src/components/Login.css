@@ -1,10 +1,10 @@
 #loginCont {
-	display: flex;
+	display: grid;
 	gap: 3rem;
 	justify-content: center;
 	text-align: center;
 	font-size: 2rem;
-	width: 20vw;
+	width: 10rem;
 	margin: 10%;
 	padding: 3rem;
 	color: var(--color-2);
