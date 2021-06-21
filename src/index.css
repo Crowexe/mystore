@@ -1,9 +1,31 @@
+:root {
+	--color-light: #00ADB5;
+	--color-dark: #393E46;
+	--color-1: #AAD8D3;
+	--color-2: #EEEEEE;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--color-dark);
+	color: var(--color-2);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+
+
 #spinner {
-	border: 0.4rem solid rgb(231, 231, 231);
+	border: 0.4rem solid var(--color-2);
 	width: 3rem;
 	height: 3rem;
 	border-radius: 50%;
-	border-left-color: #2962FF;
+	border-left-color: var(--color-light);
 	animation: spin 1s linear infinite;
 }	
 

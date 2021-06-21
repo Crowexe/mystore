@@ -4,9 +4,12 @@ const Login = () => {
 	const { login } = useUser();
 	
 	return (
-	<button onClick={login}>
-		login with Google
-	</button>
+		<>
+			<h1 id="login-title">Login</h1>
+			<button onClick={login}>
+				login with Google
+			</button>
+		</>
 	);
 }
 
