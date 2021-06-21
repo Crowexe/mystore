@@ -1,4 +1,6 @@
 #loginCont {
+	width: 30vw;
+	height: 30vh;
 	margin: 20%;
 	background-color: var(--color-light);
 }
