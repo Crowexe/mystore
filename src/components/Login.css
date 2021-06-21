@@ -13,6 +13,12 @@
 	overflow: auto;
 }
 
+#loginCont .title {
+	margin: 3rem;
+	font-size: 2rem;
+	color: var(--color-1);
+}
+
 #loginCont .loginBox {
 	display: flex;
 	flex-direction: column;
