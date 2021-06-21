@@ -20,8 +20,8 @@
 	align-items: center;
 	gap: 2rem;
 	background-color: var(--color-dark);
-	width: 5rem;
-	height: 10rem;
+	width: 10rem;
+	height: 15rem;
 }
 
 #loginCont h1 {
