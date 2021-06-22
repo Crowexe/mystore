@@ -5,6 +5,8 @@
 	width: 100%;
 	background-color: var(--color-light);
 	overflow: auto;
+	display: flex;
+	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	gap: 1rem;
@@ -33,7 +35,6 @@
 .izqThing {
 	display: flex;
 	justify-self: flex-start;
-	flex-direction: row;
 	gap: 1rem;
 	align-items: center;
 }
