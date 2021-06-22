@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Login from "./components/Login";
 import Productos from './components/Productos';
 import Logout from './components/Logout';
+import Personal from './components/Personal';
 import "./App.css";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
 					<div className="top-bar-content">
 						<Link to="/"><i className="fas fa-home"/></Link>
 						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
+						<Link to="/personal">Personal</Link>
 						<Logout />
 					</div>
 				</nav>
@@ -40,6 +42,9 @@ const App = () => {
 					</Route>
 					<Route path="/producto">
 						<Productos />
+					</Route>
+					<Route path="/personal">
+						<Personal />
 					</Route>
 				</Switch>
 			</>
