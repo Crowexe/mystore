@@ -35,12 +35,15 @@
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
-	font-size: 1.2rem;
 }
 
 .izqThing img {
-	width: 1rem;
-	height: 1rem;
+	width: 2rem;
+	height: 2rem;
+}
+
+.izqThing h1 {
+	font-size: 1rem;
 }
 
 .bLogout{
