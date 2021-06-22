@@ -37,20 +37,20 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-self: flex-start;
-	gap: 1rem;
+	align-items: center;
 	font-size: 1.4rem;
 }
 
 .izqThing img {
 	width: 2rem;
 	height: 2rem;
+	margin-right: 2rem;
 }	
 
 .top-bar-content {
 	display: flex;
 	gap: 1.4rem;
-	justify-content: flex-end;
-	
+	justify-content: flex-end;	
 	align-items: center;
 }
 
