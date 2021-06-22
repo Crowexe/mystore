@@ -20,12 +20,11 @@
 	text-decoration: none;
   }
   
-  /* Active/current link */
 .top-bar a:active {
 	color: white;
   }
   
-  /* Links on mouse-over */
+ 
 .top-bar a:hover {
 	filter: brightness(1.1);
     transform: scale(1.09);

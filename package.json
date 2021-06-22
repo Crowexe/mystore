@@ -1,5 +1,6 @@
 {
   "name": "mystore",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/typescript-estree": "^4.28.0"
   }
 }

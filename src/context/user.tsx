@@ -11,7 +11,6 @@ interface IUserContext {
     logout: () => void
 }
 
-// 1.Crear el context del usuario
 const UserContext = createContext<IUserContext>({
     user: null,
     loading: true,
@@ -20,8 +19,6 @@ const UserContext = createContext<IUserContext>({
     logout: () => {} 
 });
 
-
-// 2.Crear el provider del usuario
 export const UserProvider: FC = ({ children }) => {
     
     const [user, loading, error] = useAuthState(auth);
@@ -49,6 +46,4 @@ export const UserProvider: FC = ({ children }) => {
     )
 }
 
-
-// 3.Crear una buena forma de usar useContext
 export const useUser = () => useContext(UserContext);
