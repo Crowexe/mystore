@@ -24,6 +24,7 @@ const Compra = () => {
 			</section>
             <section id="bot">
 				<input id="busqueda" type="text" placeholder="Digita el ID del producto"/>
+				<button>Buscar</button>
             </section>
 		</>
 	);
