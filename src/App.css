@@ -18,7 +18,7 @@
 .top-bar a {
 	display: block;
 	color: aliceblue;
-	padding: .1rem;
+	padding: .2rem;
 	text-decoration: none;
   }
   
@@ -38,10 +38,10 @@
 	flex-direction: row;
 	gap: 1rem;
 	align-items: center;
-	padding: 0.2rem;
 }
 
 .izqThing img {
+	align-items: center;
 	width: 2rem;
 	height: 2rem;
 }
@@ -53,7 +53,8 @@
 .top-bar-content {
 	display: flex;
 	gap: 1.4rem;
-	justify-content: flex-end;	
+	justify-content: flex-end;
+	
 	align-items: center;
 }
 
