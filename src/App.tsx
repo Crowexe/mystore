@@ -31,7 +31,7 @@ const App = () => {
 						<Link to="/"><i className="fas fa-home"/></Link>
 						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
 						<Link to="/personal"><i className="fas fa-user-friends"/></Link>
-						<Link to="/compras">Compras</Link>
+						<Link to="/compras"><i className="fas fa-shopping-cart"/></Link>
 						<Logout />
 					</div>
 				</nav>
