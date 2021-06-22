@@ -12,6 +12,8 @@
 	position: fixed;
 	height: 100%;
 	overflow: auto;
+	border-top-left-radius: 0.3rem;
+	border-bottom-left-radius: 0.3rem;
 }
 
 #loginCont .title {
