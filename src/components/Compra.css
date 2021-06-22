@@ -29,7 +29,18 @@
 	padding: 0.6rem;
 	width: 30%;
 	outline: none;
+	border: none;
 	font-size: 1rem;
-	border-top-left-radius: 0.6rem;
-	border-bottom-left-radius: 0.6rem;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+}
+
+.buscar button {
+	padding: 0.6rem;
+	width: 10%;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+	border-top-right-radius: 0.8rem;
+	border-bottom-right-radius: 0.8rem;
 }

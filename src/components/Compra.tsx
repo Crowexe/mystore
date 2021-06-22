@@ -17,7 +17,7 @@ const Compra = () => {
             <h1 className="titleCarrito">Carrito de compras</h1>
 			<section id="busquedaCont">
 				<input className="busqueda" type="text" placeholder="Digita el ID del producto"/>
-				<button className="buscar">Buscar</button>
+				<button className="buscar"><i className="fas fa-search"/></button>
             </section>               
 			<section id="todo-list">	
 				<section className="status">
