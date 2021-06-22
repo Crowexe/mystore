@@ -21,9 +21,12 @@ const App = () => {
 			{user ? 
 			<>	
 				<nav className="top-bar">
-					<Link to="/"><i className="fas fa-home"/></Link>
-					<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
-					<Logout />
+					<img src="https://i.imgur.com/vPuNXMK.png" alt="logo-bar"/>
+					<section className="top-bar-content">
+						<Link to="/"><i className="fas fa-home"/></Link>
+						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
+						<Logout />
+					</section>
 				</nav>
 				<Switch>					
 					<Route exact path="/">
