@@ -38,6 +38,7 @@
 	flex-direction: row;
 	gap: 1rem;
 	align-items: baseline;
+	padding: 0.6rem;
 }
 
 .izqThing img {
