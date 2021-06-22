@@ -1,4 +1,4 @@
-import "./Compras.css";
+import "./Compra.css";
 import { useState, useEffect } from "react";
 
 
