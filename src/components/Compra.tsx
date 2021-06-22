@@ -14,7 +14,11 @@ const Compra = () => {
 
 	return (
 		<>
-            <h1 className="titleCarrito">Carrito de compras</h1>               
+            <h1 className="titleCarrito">Carrito de compras</h1>
+			<section id="bot">
+				<input id="busqueda" type="text" placeholder="Digita el ID del producto"/>
+				<button>Buscar</button>
+            </section>               
 			<section id="todo-list">	
 				<section className="status">
 					<img src="https://i.imgur.com/OMzIpyl.png" alt="checkedlist"/>
@@ -22,10 +26,6 @@ const Compra = () => {
 					<h3 className="instCarrito">Agrega los productos de compra</h3>
 				</section>
 			</section>
-            <section id="bot">
-				<input id="busqueda" type="text" placeholder="Digita el ID del producto"/>
-				<button>Buscar</button>
-            </section>
 		</>
 	);
 }
