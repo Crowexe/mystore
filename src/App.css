@@ -52,7 +52,7 @@
 
 .top-bar-content {
 	display: flex;
-	gap: 2rem;
+	gap: 1.4rem;
 	justify-content: flex-end;
 }
 
