@@ -20,6 +20,11 @@
 	filter: opacity(70%);
 }
 
-#busqueda {
+#busquedaCont {
+	margin: 1rem;
+}
+
+.busqueda {
 	background-color: var(--color-light);
+
 }

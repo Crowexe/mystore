@@ -15,8 +15,8 @@ const Compra = () => {
 	return (
 		<>
             <h1 className="titleCarrito">Carrito de compras</h1>
-			<section id="bot">
-				<input id="busqueda" type="text" placeholder="Digita el ID del producto"/>
+			<section id="busquedaCont">
+				<input className="busqueda" type="text" placeholder="Digita el ID del producto"/>
 				<button className="buscar">Buscar</button>
             </section>               
 			<section id="todo-list">	
