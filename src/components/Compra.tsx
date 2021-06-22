@@ -1,4 +1,4 @@
-
+import './Compras.css'
 import { useState, useEffect } from "react";
 
 
