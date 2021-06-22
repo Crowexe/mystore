@@ -4,7 +4,17 @@
 	margin-bottom: 2rem;
 }
 
+.estadoCarrito {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.instCarrito {
+	font-size: 1.3rem;
+}
+
 .status img {
 	width: 5rem;
 	height: 5rem;
+	filter: opacity(80%);
 }
