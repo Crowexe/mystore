@@ -35,6 +35,38 @@
 	border-bottom-left-radius: 0.8rem;
 }
 
+.busqueda::placeholder {
+	text-align: center;
+	color: var(--color-light);
+    font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.busqueda:focus {
+	outline: none;
+	text-align: center;
+	color: var(--color-dark);
+    font-size: 1rem;
+}
+
+.busqueda:focus::placeholder {
+	text-align: center;
+	color: var(--color-light);
+    font-size: 1rem;	
+}
+
+.busqueda :focus::before {
+	text-align: center;
+	color: var(--color-light);
+    font-size: 1rem;
+}
+
+.busqueda:focus::after {
+	text-align: center;
+	color: var(--color-light);
+    font-size: 1rem;
+}
+
 .buscar {
 	background-color: var(--color-light);
 	color: var(--color-2);
@@ -45,4 +77,10 @@
 	font-size: 1rem;
 	border-top-right-radius: 0.8rem;
 	border-bottom-right-radius: 0.8rem;
+	transition: transform .3s;
+}
+
+.buscar:hover {
+	filter: brightness(1.1);
+    transform: scale(1.09);
 }
