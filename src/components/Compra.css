@@ -26,8 +26,10 @@
 
 .busqueda {
 	background-color: var(--color-light);
-	padding: 1rem;
-	width: 40%;
+	padding: 0.6rem;
+	width: 30%;
 	outline: none;
+	font-size: 1rem;
+	border-top-left-radius: 0.6rem;
+	border-bottom-left-radius: 0.6rem;
 }
-
