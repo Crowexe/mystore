@@ -17,6 +17,7 @@
 #loginCont .title {
 	display: flex;
 	justify-content: center;
+	margin-top: -2rem;
 	margin: 3rem;
 	font-size: 4rem;	
 	font-weight: bold;
