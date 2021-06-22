@@ -46,12 +46,12 @@
 
 .izqThing h2 {
 	font-size: 1rem;
-
+	align-self: baseline;
 }
 
 .top-bar-content {
 	display: flex;
-	gap: 1rem;
+	gap: 2rem;
 	justify-content: flex-end;
 }
 
