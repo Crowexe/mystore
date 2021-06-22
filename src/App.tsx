@@ -1,5 +1,3 @@
-import Home from './components/Home';
-import Login from "./components/Login";
 import { useUser } from "./context/user";
 import {
 	BrowserRouter as Router,
@@ -7,6 +5,8 @@ import {
 	Route,
 	Link
   } from 'react-router-dom';
+import Home from './components/Home';
+import Login from "./components/Login";
 import Productos from './components/Productos';
 import Logout from './components/Logout';
 import "./App.css";
@@ -25,8 +25,11 @@ const App = () => {
 					<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
 					<Logout />
 				</nav>
-					<Switch>					
+				<Switch>					
 					<Route exact path="/">
+						<Home />				
+					</Route>
+					<Route path="/logout">
 						<Home />				
 					</Route>
 					<Route path="/producto">
