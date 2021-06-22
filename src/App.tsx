@@ -10,6 +10,7 @@ import Login from "./components/Login";
 import Productos from './components/Productos';
 import Logout from './components/Logout';
 import Personal from './components/Personal';
+import Compra from './components/Compra';
 import "./App.css";
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
 						<Link to="/"><i className="fas fa-home"/></Link>
 						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
 						<Link to="/personal"><i className="fas fa-user-friends"/></Link>
+						<Link to="/compras">Compras</Link>
 						<Logout />
 					</div>
 				</nav>
@@ -45,6 +47,9 @@ const App = () => {
 					</Route>
 					<Route path="/personal">
 						<Personal />
+					</Route>
+					<Route path="/compras">
+						<Compra />
 					</Route>
 				</Switch>
 			</>
