@@ -3,7 +3,7 @@ const Personal = () => {
 
 	return (
 		<>
-			<h1>Personal</h1>
+			<h1 className="titlePersonal">Personal</h1>
 		</>
 	);
 }
