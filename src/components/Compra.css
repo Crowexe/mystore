@@ -36,6 +36,8 @@
 }
 
 .buscar {
+	background-color: var(--color-light);
+	color: var(--color-2);
 	padding: 0.6rem;
 	width: 10%;
 	outline: none;
