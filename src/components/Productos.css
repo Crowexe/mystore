@@ -11,6 +11,10 @@
 	margin-bottom: 0.7rem;
 }
 
+#prod-items .modifiers {
+	width: 3rem;
+}
+
 #prod-items .modifiers button {
 	background-color: var(--color-light);
 	border: none;
