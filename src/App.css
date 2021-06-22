@@ -34,7 +34,7 @@
 
 .izqThing {
 	display: flex;
-	justify-self: flex-end;
+	justify-self: flex-start;
 	flex-direction: row;
 	gap: 1rem;
 	align-items: center;
