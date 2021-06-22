@@ -33,7 +33,7 @@
 }
 
 .izqThing {
-	display: flex;
+	display: grid;
 	justify-self: flex-start;
 	gap: 1rem;
 	align-items: center;
