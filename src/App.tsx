@@ -22,10 +22,12 @@ const App = () => {
 			<>	
 				<nav className="top-bar">
 					<div className="top-bar-content">
-						<Link to="/"><div className="izqThing">
-						<img src="https://i.imgur.com/vPuNXMK.png" alt="logo-bar"/>	
-							<h2 className="title">My Store</h2>
-						</div></Link>
+						<div className="izqThing">
+							<Link to="/">
+								<img src="https://i.imgur.com/vPuNXMK.png" alt="logo-bar"/>	
+									<h2 className="title">My Store</h2>
+							</Link>
+						</div>
 						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
 						<Logout />
 					</div>
