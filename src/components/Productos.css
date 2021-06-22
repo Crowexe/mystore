@@ -13,6 +13,14 @@
 
 #prod-items .modifiers button {
 	background-color: var(--color-light);
+	padding: 0.2rem;	
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+#prod-items .editBot {
+	border-radius: 0.3rem;
+	border: none;
 }
 
 #campos {

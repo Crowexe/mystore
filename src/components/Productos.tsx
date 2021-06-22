@@ -106,8 +106,8 @@ const Productos = () => {
 								<div>{tipo}</div>
 								<div>{unidad}</div> 
 								<div className="modifiers">
-									<button><i className="far fa-edit" /></button>
-									<button><i className="far fa-trash-alt" /></button>
+									<button className="editBot"><i className="far fa-edit" /></button>
+									<button className="trashBot"><i className="far fa-trash-alt" /></button>
 								</div>
 							</section>
 						</div>
