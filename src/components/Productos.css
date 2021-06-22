@@ -2,18 +2,6 @@
 	font-size: 3.8rem;
 }
 
-#index-table {
-	display: grid;
-	justify-self: center;	
-	align-self: center;
-	grid-template-columns: repeat(7, 1fr);	
-	margin: 1rem;
-	padding: 0.1rem;
-	font-size: 1.5rem;
-	border-radius: 0.5rem;
-	background-color: var(--color-light);
-}
-
 #prod-items {
 	display: grid;
 	justify-content: center;	
@@ -91,3 +79,6 @@
 	color: var(--color-1)
 }
 
+#campos input:focus::before {
+	text-align: center;
+}
