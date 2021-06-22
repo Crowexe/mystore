@@ -21,15 +21,13 @@ const App = () => {
 			{user ? 
 			<>	
 				<nav className="top-bar">
-						<div className="izqThing">
-							<Link to="/">
-								<img src="https://i.imgur.com/vPuNXMK.png" alt="logo-bar"/>My Store
-							</Link>
-						</div>
-						<div className="top-bar-content">
-							<Link to="/producto">
-								<i className="fas fa-clipboard-list"/>
-							</Link>
+					<div className="izqThing">
+						<img src="https://i.imgur.com/vPuNXMK.png" alt="logo-bar"/>
+						<h2 className="title">My Store</h2>
+					</div>
+					<div className="top-bar-content">
+						<Link to="/"><i className="fas fa-home"/></Link>
+						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
 						<Logout />
 					</div>
 				</nav>
