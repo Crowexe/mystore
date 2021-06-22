@@ -37,7 +37,7 @@
 
 .busqueda::placeholder {
 	text-align: center;
-	color: var(--color-light);
+	color: var(--color-dark);
     font-size: 1.2rem;
 	font-weight: bold;
 }
@@ -68,7 +68,7 @@
 }
 
 .buscar {
-	background-color: var(--color-dark);
+	background-color: var(--color-light);
 	color: var(--color-2);
 	padding: 0.6rem;
 	width: 5%;
