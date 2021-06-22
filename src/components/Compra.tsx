@@ -15,7 +15,7 @@ interface IPersonal {
 const messagesRef = firestore.collection("general");
 const messagesQuery = messagesRef.orderBy("createdAt", "asc").limit(100);
 
-const Personal = () => {
+const Compra = () => {
     const {  user } = useUser();
     const [messages, loading] = useCollectionData<IPersonal>(
         messagesQuery, 
@@ -23,4 +23,4 @@ const Personal = () => {
     );
 }
 
-export default Personal;
+export default Compra;
