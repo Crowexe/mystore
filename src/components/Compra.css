@@ -1,4 +1,10 @@
-img {
+.title h1 {
+	font-size: 5rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.status img {
 	width: 5rem;
 	height: 5rem;
 }
