@@ -10,11 +10,11 @@
 }
 
 .instCarrito {
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 
 .status img {
 	width: 5rem;
 	height: 5rem;
-	filter: opacity(80%);
+	filter: opacity(70%);
 }

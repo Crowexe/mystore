@@ -18,7 +18,7 @@ const Compra = () => {
 			<section id="todo-list">	
 				<section className="status">
 					<img src="https://i.imgur.com/OMzIpyl.png" alt="checkedlist"/>
-					<br/><h2 className="estadoCarrito">Carrito de compras vacia</h2><br/>
+					<br/><h2 className="estadoCarrito">Carrito de compras vacia</h2>
 					<h3 className="instCarrito">Agrega los productos de compra</h3>
 				</section>
 			</section>
