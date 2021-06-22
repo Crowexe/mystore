@@ -23,7 +23,7 @@ const App = () => {
 				<nav className="top-bar">
 					<Link to="/"><i className="fas fa-home"/></Link>
 					<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
-					<Link to="/logout"><Logout /></Link>
+					<Logout />
 				</nav>
 					<Switch>					
 					<Route exact path="/">
