@@ -33,21 +33,18 @@
 }
 
 .izqThing {
-	display: grid;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	justify-self: flex-start;
 	gap: 1rem;
-	align-items: center;
+	font-size: 1.4rem;
 }
 
 .izqThing img {
-	align-items: center;
 	width: 2rem;
 	height: 2rem;
-}
-
-.izqThing h2 {
-	font-size: 1.4rem;
-}
+}	
 
 .top-bar-content {
 	display: flex;
