@@ -17,7 +17,7 @@ const Compra = () => {
             <h1 className="titleCarrito">Carrito de compras</h1>
 			<section id="bot">
 				<input id="busqueda" type="text" placeholder="Digita el ID del producto"/>
-				<button>Buscar</button>
+				<button className="buscar">Buscar</button>
             </section>               
 			<section id="todo-list">	
 				<section className="status">
