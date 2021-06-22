@@ -29,7 +29,7 @@ const App = () => {
 					<div className="top-bar-content">
 						<Link to="/"><i className="fas fa-home"/></Link>
 						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
-						<Link to="/personal">Personal</Link>
+						<Link to="/personal"><i className="fas fa-user-friends"/></Link>
 						<Logout />
 					</div>
 				</nav>
