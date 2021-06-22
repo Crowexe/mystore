@@ -22,6 +22,7 @@ const App = () => {
 			<>	
 				<nav className="top-bar">
 					<img src="https://i.imgur.com/vPuNXMK.png" alt="logo-bar"/>
+					<h1>My Store</h1>
 					<section className="top-bar-content">
 						<Link to="/"><i className="fas fa-home"/></Link>
 						<Link to="/producto"><i className="fas fa-clipboard-list"/></Link>
