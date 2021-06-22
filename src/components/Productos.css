@@ -84,13 +84,19 @@
 
 #campos input:focus::placeholder {
 	text-align: center;
-	color: var(--color-dark);
+	color: var(--color-light);
     font-size: 1rem;
 	
 }
 
+#campos input:focus::before {
+	text-align: center;
+	color: var(--color-light);
+    font-size: 1rem;
+}
+
 #campos input:focus::after {
 	text-align: center;
-	color: var(--color-dark);
+	color: var(--color-light);
     font-size: 1rem;
 }
