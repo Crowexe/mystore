@@ -11,10 +11,6 @@
 	margin-bottom: 0.7rem;
 }
 
-#prod-items .modifiers {
-	width: 3rem;
-}
-
 #prod-items .modifiers button {
 	background-color: var(--color-light);
 	border: none;
@@ -22,8 +18,8 @@
     font-size: 1.2rem;
 	font-weight: bold;
 	padding: 0.2rem;	
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	transition: transform .3s;
 }
 
