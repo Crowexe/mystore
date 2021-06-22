@@ -51,24 +51,24 @@
 
 .busqueda:focus::placeholder {
 	text-align: center;
-	color: var(--color-light);
+	color: var(--color-dark);
     font-size: 1rem;	
 }
 
 .busqueda :focus::before {
 	text-align: center;
-	color: var(--color-light);
+	color: var(--color-dark);
     font-size: 1rem;
 }
 
 .busqueda:focus::after {
 	text-align: center;
-	color: var(--color-light);
+	color: var(--color-dark);
     font-size: 1rem;
 }
 
 .buscar {
-	background-color: var(--color-light);
+	background-color: var(--color-dark);
 	color: var(--color-2);
 	padding: 0.6rem;
 	width: 5%;
