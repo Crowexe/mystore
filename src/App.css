@@ -33,7 +33,7 @@
 
 .izqThing {
 	display: flex;
-	justify-content: flex-end;
+	justify-self: flex-end;
 	flex-direction: row;
 }
 
@@ -44,6 +44,11 @@
 
 .izqThing h2 {
 	font-size: 1rem;
+}
+
+.top-bar-content {
+	display: flex;
+	justify-self: flex-end;
 }
 
 .bLogout{
