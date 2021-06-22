@@ -65,7 +65,7 @@
 	border-bottom-left-radius: 0.7rem;
 }
 
-#campos button {
+#campos .bAdd {
 	background-color: var(--color-light);
     border: none;
     color: var(--color-1);
@@ -80,7 +80,7 @@
 	transition: transform 0.3s;
 }
 
-#campo button:hover {
+#campo .bAdd:hover {
 	filter: brightness(1.1);
     transform: scale(1.09);
 }
