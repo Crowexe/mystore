@@ -11,6 +11,7 @@
 
 .instCarrito {
 	font-size: 1rem;
+	margin: 0.6rem;
 }
 
 .status img {
@@ -18,3 +19,4 @@
 	height: 5rem;
 	filter: opacity(70%);
 }
+
