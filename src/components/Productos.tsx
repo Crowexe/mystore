@@ -92,7 +92,7 @@ const Productos = () => {
 					<input type="text" value={existencia} placeholder="Stock" onChange={(e) => setExitencia(e.target.value)} />
 					<input type="text" value={tipo} placeholder="Tipo" onChange={(e) => setTipo(e.target.value)} />
 					<input type="text" value={unidad} placeholder="Unidad" onChange={(e) => setUnidad(e.target.value)} />
-					<button className="bAdd"><i className="fas fa-plus-circle"/></button>
+					<button className="bAdd"><i className="fas fa-plus"/></button>
 				</form>
 				<section>
 					{ productos && productos.map(({ nombre, precioV, precioC, existencia, identificador, unidad, tipo, id }) => (
