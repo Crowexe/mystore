@@ -32,6 +32,16 @@
     transform: scale(1.09);
 }
 
+.izqThing {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+.izqThing img {
+	width: 0.5rem;
+}
+
 .bLogout{
     background-color: transparent;
     border: none;
