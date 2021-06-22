@@ -1,3 +1,4 @@
+import "./Personal.css";
 
 const Personal = () => {
 
