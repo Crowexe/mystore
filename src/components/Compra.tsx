@@ -2,14 +2,14 @@ import "./Compra.css";
 import { useState, useEffect } from "react";
 
 
-const initialState = JSON.parse(localStorage.getItem("todos") || "[]");
+const initialState = JSON.parse(localStorage.getItem("productos") || "[]");
 
 const Compra = () => {
 
 	const [productos] = useState(initialState);
 
 	useEffect(() => {
-        localStorage.setItem("todos", JSON.stringify(productos));
+        localStorage.setItem("productos", JSON.stringify(productos));
     }, [productos])
 
 	return (
