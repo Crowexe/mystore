@@ -37,6 +37,7 @@
 	justify-self: flex-end;
 	flex-direction: row;
 	gap: 1rem;
+	align-items: baseline;
 }
 
 .izqThing img {
@@ -46,7 +47,6 @@
 
 .izqThing h2 {
 	font-size: 1rem;
-	align-self: baseline;
 }
 
 .top-bar-content {
